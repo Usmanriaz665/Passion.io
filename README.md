@@ -5,20 +5,21 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version => (2.5.1)
+* Ruby version => (2>=.5.1)
 
 * System dependencies => (
 Rails 5.2.4, 
 database => Postgres,
-Postman to hit api )
+install Postman to hit Api )
 
 * Configuration
 
 run these commands
 
 => bundle install
-=> rake db:migrate
-=> rake db:seed
+=> rake db:create
+=> rake db:reset
+
 => rails s
 
 * Database creation
