@@ -15,11 +15,10 @@ install Postman to hit Api )
 * Configuration
 
 run these commands
-
+=> set your database.yml according to your local database configuration
 => bundle install
 => rake db:create
 => rake db:reset
-
 => rails s
 
 * Database creation
@@ -27,6 +26,8 @@ run these commands
 * Database initialization
 
 * How to run the test suite
+![alt text](https://github.com/Usmanriaz665/Passion.io/blob/master/public/authenticate_request.png)
+![alt text](https://github.com/Usmanriaz665/Passion.io/blob/master/public/token_request.png)
 
 * Services (job queues, cache servers, search engines, etc.)
 
