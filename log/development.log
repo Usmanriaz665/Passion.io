@@ -1,0 +1,2612 @@
+Started GET "/" for ::1 at 2019-11-30 17:27:18 +0500
+  
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2019-11-30 17:27:18 +0500
+  
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (1786.3ms)[0m  [1m[35mCREATE DATABASE "passion-test_development" ENCODING = 'unicode'[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE "passion-test_development" ENCODING = 'unicode'[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (727.1ms)[0m  [1m[35mCREATE DATABASE "passion-test_test" ENCODING = 'unicode'[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+Started GET "/" for ::1 at 2019-11-30 17:34:06 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.4/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-11-30 17:34:06 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (166.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (96.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3004056148730894670)[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+Migrating to CreateVerticals (20191130123535)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (90.2ms)[0m  [1m[35mCREATE TABLE "verticals" ("id" bigserial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20191130123535_create_verticals.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191130123535"]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (17.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+Migrating to CreateCategories (20191130123700)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (133.4ms)[0m  [1m[35mCREATE TABLE "categories" ("id" bigserial primary key, "name" character varying, "vertical_id" bigint, "state" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_0838aebcc8"
+FOREIGN KEY ("vertical_id")
+  REFERENCES "verticals" ("id")
+)[0m
+  ↳ db/migrate/20191130123700_create_categories.rb:3
+  [1m[35m (53.5ms)[0m  [1m[35mCREATE  INDEX  "index_categories_on_vertical_id" ON "categories"  ("vertical_id")[0m
+  ↳ db/migrate/20191130123700_create_categories.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191130123700"]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (18.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+Migrating to CreateCourses (20191130123745)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (124.8ms)[0m  [1m[35mCREATE TABLE "courses" ("id" bigserial primary key, "name" character varying, "author" character varying, "category_id" bigint, "state" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_e072dca946"
+FOREIGN KEY ("category_id")
+  REFERENCES "categories" ("id")
+)[0m
+  ↳ db/migrate/20191130123745_create_courses.rb:3
+  [1m[35m (53.2ms)[0m  [1m[35mCREATE  INDEX  "index_courses_on_category_id" ON "courses"  ("category_id")[0m
+  ↳ db/migrate/20191130123745_create_courses.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191130123745"]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (15.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-30 12:41:20.971208"], ["updated_at", "2019-11-30 12:41:20.971208"]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (10.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3004056148730894670)[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1[0m  [["LIMIT", 11]]
+Started POST "/verticals" for ::1 at 2019-11-30 18:10:49 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"name"=>"test vertical"}
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: vertical):
+  
+app/controllers/verticals_controller.rb:48:in `create_vertical_params'
+app/controllers/verticals_controller.rb:9:in `create'
+Started POST "/verticals" for ::1 at 2019-11-30 18:12:01 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test vertical"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:9
+  [1m[36mVertical Create (0.7ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test vertical"], ["created_at", "2019-11-30 13:12:01.940391"], ["updated_at", "2019-11-30 13:12:01.940391"]]
+  ↳ app/controllers/verticals_controller.rb:9
+  [1m[35m (12.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:9
+Completed 200 OK in 29ms (Views: 0.3ms | ActiveRecord: 17.0ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:15:02 +0500
+  
+ActionController::RoutingError (undefined method `check_params_validity' for VerticalsController:Class):
+  
+app/controllers/verticals_controller.rb:2:in `<class:VerticalsController>'
+app/controllers/verticals_controller.rb:1:in `<top (required)>'
+Started POST "/verticals" for ::1 at 2019-11-30 18:17:03 +0500
+  
+ActionController::RoutingError (undefined method `check_params_validity' for VerticalsController:Class):
+  
+app/controllers/verticals_controller.rb:2:in `<class:VerticalsController>'
+app/controllers/verticals_controller.rb:1:in `<top (required)>'
+Started POST "/verticals" for ::1 at 2019-11-30 18:17:39 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"name"=>"test vertical"}
+Filter chain halted as :check_params_validity rendered or redirected
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:18:07 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":pppp"=>"test vertical"}}
+Unpermitted parameter: ::pppp
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-11-30 13:18:07.850079"], ["updated_at", "2019-11-30 13:18:07.850079"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (27.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 44ms (Views: 0.3ms | ActiveRecord: 32.5ms)
+
+
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Started POST "/verticals" for ::1 at 2019-11-30 18:19:32 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":pppp"=>"test vertical"}}
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `e' for #<VerticalsController:0x00007fa32d2a6c28>):
+  
+app/controllers/verticals_controller.rb:13:in `rescue in create'
+app/controllers/verticals_controller.rb:9:in `create'
+Started POST "/verticals" for ::1 at 2019-11-30 18:20:29 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":pppp"=>"test vertical"}}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant VerticalsController::Error):
+  
+app/controllers/verticals_controller.rb:13:in `rescue in create'
+app/controllers/verticals_controller.rb:9:in `create'
+Started POST "/verticals" for ::1 at 2019-11-30 18:20:47 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":pppp"=>"test vertical"}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:20:56 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":pppp"=>"test vertical"}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:20:57 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":pppp"=>"test vertical"}}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:20:58 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":pppp"=>"test vertical"}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:24:54 +0500
+  
+SyntaxError (/home/muzzamil/test/passion-test/app/controllers/verticals_controller.rb:52: syntax error, unexpected keyword_end
+    end
+    ^~~
+/home/muzzamil/test/passion-test/app/controllers/verticals_controller.rb:62: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/verticals_controller.rb:52: syntax error, unexpected keyword_end
+app/controllers/verticals_controller.rb:62: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/verticals" for ::1 at 2019-11-30 18:25:20 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":name"=>"test verticals"}}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:26:25 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":name"=>"test verticals"}}
+Unpermitted parameter: ::name
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:26:59 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":name"=>"test verticals"}}
+Unpermitted parameter: ::name
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:27:46 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{":name"=>"test verticals"}}
+Unpermitted parameter: ::name
+Unpermitted parameter: ::name
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:12
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:28:05 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test verticals"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test verticals"], ["created_at", "2019-11-30 13:28:06.024490"], ["updated_at", "2019-11-30 13:28:06.024490"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (24.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 42ms (Views: 0.2ms | ActiveRecord: 28.7ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:28:11 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"jkjkj"=>"test verticals"}}
+Unpermitted parameter: :jkjkj
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 18:28:35 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"jkjkj"=>"test verticals", "name"=>"test sdasdas"}}
+Unpermitted parameter: :jkjkj
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test sdasdas"], ["created_at", "2019-11-30 13:28:35.973369"], ["updated_at", "2019-11-30 13:28:35.973369"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (21.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 25ms (Views: 0.2ms | ActiveRecord: 22.3ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 18:29:03 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT "verticals".* FROM "verticals"[0m
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/verticals" for ::1 at 2019-11-30 18:30:13 +0500
+  
+ActionController::RoutingError (No route matches [PUT] "/verticals"):
+  
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/verticals/2" for ::1 at 2019-11-30 18:30:45 +0500
+Processing by VerticalsController#update as */*
+  Parameters: {"vertical"=>{"name"=>"test 2"}, "id"=>"2"}
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/verticals/2" for ::1 at 2019-11-30 18:39:28 +0500
+Processing by VerticalsController#update as */*
+  Parameters: {"vertical"=>{"name"=>"test 2"}, "id"=>"2"}
+  [1m[36mVertical Load (0.5ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/verticals_controller.rb:59
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:30
+  [1m[36mVertical Update (0.4ms)[0m  [1m[33mUPDATE "verticals" SET "name" = $1, "updated_at" = $2 WHERE "verticals"."id" = $3[0m  [["name", "test 2"], ["updated_at", "2019-11-30 13:39:28.881297"], ["id", 2]]
+  ↳ app/controllers/verticals_controller.rb:30
+  [1m[35m (11.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:30
+Completed 200 OK in 38ms (Views: 0.3ms | ActiveRecord: 20.2ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 18:39:38 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.4ms)[0m  [1m[34mSELECT "verticals".* FROM "verticals"[0m
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 18:53:50 +0500
+Processing by VerticalsController#index as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/verticals_controller.rb:5:in `index'
+Started GET "/verticals" for ::1 at 2019-11-30 18:54:14 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1[0m  [["LIMIT", 10]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 26ms (Views: 12.6ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 18:54:22 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 11ms (Views: 5.0ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 18:54:46 +0500
+Processing by VerticalsController#index as */*
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `desc' for #<VerticalsController:0x00007fa31805b848>):
+  
+app/controllers/verticals_controller.rb:5:in `index'
+Started GET "/verticals" for ::1 at 2019-11-30 18:54:59 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.4ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 15ms (Views: 6.8ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 18:56:23 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 15ms (Views: 6.4ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 18:56:30 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 3]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 12ms (Views: 6.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 18:57:27 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.4ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 10]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 17ms (Views: 8.2ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 18:57:36 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 14ms (Views: 6.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/verticals?cursor=2" for ::1 at 2019-11-30 18:58:04 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"2"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals?cursor=1" for ::1 at 2019-11-30 18:58:09 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"1"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals?cursor=0" for ::1 at 2019-11-30 18:58:15 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/verticals?cursor=0" for ::1 at 2019-11-30 18:58:25 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 14ms (Views: 7.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/verticals?cursor=0" for ::1 at 2019-11-30 18:58:29 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/verticals?cursor=0" for ::1 at 2019-11-30 18:58:33 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.8ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1[0m  [["LIMIT", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 18ms (Views: 8.3ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/verticals?cursor=0" for ::1 at 2019-11-30 18:59:39 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 0], ["OFFSET", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/verticals?cursor=1" for ::1 at 2019-11-30 18:59:46 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"1"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 1], ["OFFSET", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/verticals?cursor=2" for ::1 at 2019-11-30 18:59:52 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"2"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/verticals?cursor=1" for ::1 at 2019-11-30 19:00:00 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"1"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 1], ["OFFSET", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals?cursor=0" for ::1 at 2019-11-30 19:00:18 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 0], ["OFFSET", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 8ms (Views: 1.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 19:00:29 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 0], ["OFFSET", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 19:00:46 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.4ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 0], ["OFFSET", 3]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 10ms (Views: 2.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/verticals?cursor=1" for ::1 at 2019-11-30 19:00:51 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"1"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 1], ["OFFSET", 3]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/verticals?cursor=1" for ::1 at 2019-11-30 19:01:17 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"1"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 1]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 12ms (Views: 4.9ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/verticals?cursor=2" for ::1 at 2019-11-30 19:01:25 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"2"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals?cursor=0" for ::1 at 2019-11-30 19:01:40 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals?cursor=1" for ::1 at 2019-11-30 19:02:06 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"1"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 1]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals?cursor=1" for ::1 at 2019-11-30 19:02:32 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"1"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 1]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/verticals?cursor=0" for ::1 at 2019-11-30 19:02:37 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/verticals?cursor=1" for ::1 at 2019-11-30 19:03:13 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"1"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 1]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/verticals?cursor=2" for ::1 at 2019-11-30 19:03:18 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"2"}
+  [1m[36mVertical Load (0.4ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/verticals?cursor=3" for ::1 at 2019-11-30 19:03:22 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"3"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 3]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/verticals/1" for ::1 at 2019-11-30 19:03:41 +0500
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for VerticalsController):
+  
+actionpack (5.2.4) lib/abstract_controller/base.rb:129:in `process'
+actionpack (5.2.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/verticals/1" for ::1 at 2019-11-30 19:04:12 +0500
+Processing by VerticalsController#destroy as */*
+  Parameters: {"vertical"=>{"name"=>"test 2"}, "id"=>"1"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/verticals_controller.rb:59
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mVertical Destroy (0.8ms)[0m  [1m[31mDELETE FROM "verticals" WHERE "verticals"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[35m (10.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:40
+Completed 200 OK in 27ms (Views: 0.3ms | ActiveRecord: 15.1ms)
+
+
+Started DELETE "/verticals/2" for ::1 at 2019-11-30 19:04:17 +0500
+Processing by VerticalsController#destroy as */*
+  Parameters: {"vertical"=>{"name"=>"test 2"}, "id"=>"2"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/verticals_controller.rb:59
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mVertical Destroy (0.5ms)[0m  [1m[31mDELETE FROM "verticals" WHERE "verticals"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[35m (20.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:40
+Completed 200 OK in 24ms (Views: 0.2ms | ActiveRecord: 21.4ms)
+
+
+Started DELETE "/verticals/3" for ::1 at 2019-11-30 19:04:20 +0500
+Processing by VerticalsController#destroy as */*
+  Parameters: {"vertical"=>{"name"=>"test 2"}, "id"=>"3"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/verticals_controller.rb:59
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mVertical Destroy (0.4ms)[0m  [1m[31mDELETE FROM "verticals" WHERE "verticals"."id" = $1[0m  [["id", 3]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[35m (19.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:40
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 20.2ms)
+
+
+Started DELETE "/verticals/4" for ::1 at 2019-11-30 19:04:25 +0500
+Processing by VerticalsController#destroy as */*
+  Parameters: {"vertical"=>{"name"=>"test 2"}, "id"=>"4"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/verticals_controller.rb:59
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mVertical Destroy (0.4ms)[0m  [1m[31mDELETE FROM "verticals" WHERE "verticals"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[35m (24.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:40
+Completed 200 OK in 28ms (Views: 0.2ms | ActiveRecord: 25.7ms)
+
+
+Started GET "/verticals/" for ::1 at 2019-11-30 19:04:31 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (251.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "passion-test_development"[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (313.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "passion-test_test"[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (693.3ms)[0m  [1m[35mCREATE DATABASE "passion-test_development" ENCODING = 'unicode'[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (634.1ms)[0m  [1m[35mCREATE DATABASE "passion-test_test" ENCODING = 'unicode'[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35mSQL (0.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "categories" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (108.5ms)[0m  [1m[35mCREATE TABLE "categories" ("id" bigserial primary key, "name" character varying, "vertical_id" bigint, "state" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (51.2ms)[0m  [1m[35mCREATE  INDEX  "index_categories_on_vertical_id" ON "categories"  ("vertical_id")[0m
+  ↳ db/schema.rb:18
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "courses" CASCADE[0m
+  ↳ db/schema.rb:27
+  [1m[35m (110.4ms)[0m  [1m[35mCREATE TABLE "courses" ("id" bigserial primary key, "name" character varying, "author" character varying, "category_id" bigint, "state" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:27
+  [1m[35m (53.9ms)[0m  [1m[35mCREATE  INDEX  "index_courses_on_category_id" ON "courses"  ("category_id")[0m
+  ↳ db/schema.rb:27
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "verticals" CASCADE[0m
+  ↳ db/schema.rb:37
+  [1m[35m (110.5ms)[0m  [1m[35mCREATE TABLE "verticals" ("id" bigserial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:37
+  [1m[35m (10.7ms)[0m  [1m[35mALTER TABLE "categories" ADD CONSTRAINT "fk_rails_0838aebcc8"
+FOREIGN KEY ("vertical_id")
+  REFERENCES "verticals" ("id")
+[0m
+  ↳ db/schema.rb:43
+  [1m[35m (10.6ms)[0m  [1m[35mALTER TABLE "courses" ADD CONSTRAINT "fk_rails_e072dca946"
+FOREIGN KEY ("category_id")
+  REFERENCES "categories" ("id")
+[0m
+  ↳ db/schema.rb:44
+  [1m[35m (110.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (9.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191130123745)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (10.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20191130123700),
+(20191130123535);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (121.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-30 14:04:58.332747"], ["updated_at", "2019-11-30 14:04:58.332747"]]
+  ↳ db/schema.rb:13
+  [1m[35m (3.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35mSQL (0.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "categories" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (162.4ms)[0m  [1m[35mCREATE TABLE "categories" ("id" bigserial primary key, "name" character varying, "vertical_id" bigint, "state" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (64.7ms)[0m  [1m[35mCREATE  INDEX  "index_categories_on_vertical_id" ON "categories"  ("vertical_id")[0m
+  ↳ db/schema.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "courses" CASCADE[0m
+  ↳ db/schema.rb:27
+  [1m[35m (121.6ms)[0m  [1m[35mCREATE TABLE "courses" ("id" bigserial primary key, "name" character varying, "author" character varying, "category_id" bigint, "state" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:27
+  [1m[35m (65.1ms)[0m  [1m[35mCREATE  INDEX  "index_courses_on_category_id" ON "courses"  ("category_id")[0m
+  ↳ db/schema.rb:27
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "verticals" CASCADE[0m
+  ↳ db/schema.rb:37
+  [1m[35m (121.1ms)[0m  [1m[35mCREATE TABLE "verticals" ("id" bigserial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:37
+  [1m[35m (10.0ms)[0m  [1m[35mALTER TABLE "categories" ADD CONSTRAINT "fk_rails_0838aebcc8"
+FOREIGN KEY ("vertical_id")
+  REFERENCES "verticals" ("id")
+[0m
+  ↳ db/schema.rb:43
+  [1m[35m (10.2ms)[0m  [1m[35mALTER TABLE "courses" ADD CONSTRAINT "fk_rails_e072dca946"
+FOREIGN KEY ("category_id")
+  REFERENCES "categories" ("id")
+[0m
+  ↳ db/schema.rb:44
+  [1m[35m (110.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (9.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191130123745)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (10.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20191130123700),
+(20191130123535);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (99.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-30 14:04:59.153883"], ["updated_at", "2019-11-30 14:04:59.153883"]]
+  ↳ db/schema.rb:13
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Update (0.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-11-30 14:04:59.164782"], ["key", "environment"]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+Started POST "/verticals/" for ::1 at 2019-11-30 19:05:37 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 1"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.5ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 1"], ["created_at", "2019-11-30 14:05:38.058014"], ["updated_at", "2019-11-30 14:05:38.058014"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (12.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 34ms (Views: 0.2ms | ActiveRecord: 16.9ms)
+
+
+Started POST "/verticals/" for ::1 at 2019-11-30 19:05:47 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 2"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 2"], ["created_at", "2019-11-30 14:05:47.319810"], ["updated_at", "2019-11-30 14:05:47.319810"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (28.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 31ms (Views: 0.1ms | ActiveRecord: 29.1ms)
+
+
+Started POST "/verticals/" for ::1 at 2019-11-30 19:05:51 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 3"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 3"], ["created_at", "2019-11-30 14:05:51.273981"], ["updated_at", "2019-11-30 14:05:51.273981"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (30.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 33ms (Views: 0.1ms | ActiveRecord: 30.6ms)
+
+
+Started POST "/verticals/" for ::1 at 2019-11-30 19:05:55 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 4"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 4"], ["created_at", "2019-11-30 14:05:55.105612"], ["updated_at", "2019-11-30 14:05:55.105612"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (20.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 20.6ms)
+
+
+Started POST "/verticals/" for ::1 at 2019-11-30 19:05:58 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 5"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 5"], ["created_at", "2019-11-30 14:05:58.914795"], ["updated_at", "2019-11-30 14:05:58.914795"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (21.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 25ms (Views: 0.2ms | ActiveRecord: 22.3ms)
+
+
+Started POST "/verticals/" for ::1 at 2019-11-30 19:06:01 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 6"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 6"], ["created_at", "2019-11-30 14:06:01.800715"], ["updated_at", "2019-11-30 14:06:01.800715"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (25.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 28ms (Views: 0.2ms | ActiveRecord: 25.7ms)
+
+
+Started POST "/verticals/" for ::1 at 2019-11-30 19:06:05 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 7"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 7"], ["created_at", "2019-11-30 14:06:05.262138"], ["updated_at", "2019-11-30 14:06:05.262138"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (30.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 33ms (Views: 0.2ms | ActiveRecord: 30.5ms)
+
+
+Started POST "/verticals/" for ::1 at 2019-11-30 19:06:08 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 8"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 8"], ["created_at", "2019-11-30 14:06:08.363699"], ["updated_at", "2019-11-30 14:06:08.363699"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (28.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 31ms (Views: 0.2ms | ActiveRecord: 29.1ms)
+
+
+Started POST "/verticals/" for ::1 at 2019-11-30 19:06:11 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 9"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 9"], ["created_at", "2019-11-30 14:06:11.748386"], ["updated_at", "2019-11-30 14:06:11.748386"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (21.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 24ms (Views: 0.1ms | ActiveRecord: 21.8ms)
+
+
+Started POST "/verticals/" for ::1 at 2019-11-30 19:06:16 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 10"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 10"], ["created_at", "2019-11-30 14:06:16.645433"], ["updated_at", "2019-11-30 14:06:16.645433"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (24.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 27ms (Views: 0.2ms | ActiveRecord: 24.6ms)
+
+
+Started GET "/verticals/" for ::1 at 2019-11-30 19:06:22 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/verticals/?cursor=0" for ::1 at 2019-11-30 19:06:40 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/?cursor=2" for ::1 at 2019-11-30 19:06:50 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"2"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 2]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/?cursor=4" for ::1 at 2019-11-30 19:07:01 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"4"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 4]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/?cursor=0" for ::1 at 2019-11-30 19:07:28 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"0"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 13ms (Views: 7.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/verticals/?cursor=3" for ::1 at 2019-11-30 19:07:34 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"3"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 3]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/verticals/" for ::1 at 2019-11-30 19:07:53 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/?cursor=3" for ::1 at 2019-11-30 19:08:08 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"3"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 3]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/verticals/?cursor=6" for ::1 at 2019-11-30 19:08:28 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"6"}
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 6]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/verticals/?cursor=3" for ::1 at 2019-11-30 19:08:38 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"3"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 3]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/" for ::1 at 2019-11-30 19:09:09 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/" for ::1 at 2019-11-30 19:09:59 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 12ms (Views: 5.9ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/verticals/?cursor=3" for ::1 at 2019-11-30 19:10:07 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"3"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 3]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/?cursor=6" for ::1 at 2019-11-30 19:10:13 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"6"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 6]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/?cursor=7" for ::1 at 2019-11-30 19:10:23 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"7"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 7]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/?cursor=9" for ::1 at 2019-11-30 19:10:31 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"9"}
+  [1m[36mVertical Load (0.4ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 9]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/verticals/" for ::1 at 2019-11-30 19:10:39 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.4ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/verticals/" for ::1 at 2019-11-30 19:23:05 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 17ms (Views: 7.6ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/verticals/?size=5" for ::1 at 2019-11-30 19:23:16 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"size"=>"5"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/?cursor=5&size=5" for ::1 at 2019-11-30 19:23:26 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"5", "size"=>"5"}
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT VERSION()[0m
+  ↳ (erb):38
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3004056148730894670)[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3004056148730894670)[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+Started GET "/" for ::1 at 2019-11-30 20:34:24 +0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3004056148730894670)[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+Migrating to CreateUsers (20191130153655)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (94.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20191130153655_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191130153655"]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (18.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3004056148730894670)[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "example@mail.com"], ["password_digest", "$2a$12$jg6VfX4gPNhc8OXBJsXMSOSuDsQOAEf9xkqlD3eXrPXy.h6McEOJe"], ["created_at", "2019-11-30 15:49:40.056522"], ["updated_at", "2019-11-30 15:49:40.056522"]]
+  [1m[35m (15.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/verticals/?cursor=5&size=5" for ::1 at 2019-11-30 20:50:05 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"5", "size"=>"5"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ApplicationController::AuthorizeApiRequest):
+  
+app/controllers/application_controller.rb:8:in `authenticate_request'
+Started POST "/authenticate" for ::1 at 2019-11-30 20:51:29 +0500
+  
+AbstractController::ActionNotFound (The action 'authenticate' could not be found for AuthenticationController):
+  
+actionpack (5.2.4) lib/abstract_controller/base.rb:129:in `process'
+actionpack (5.2.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/authenticate" for ::1 at 2019-11-30 20:52:44 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+  
+AbstractController::ActionNotFound (The action 'authenticate' could not be found for AuthenticationController):
+  
+actionpack (5.2.4) lib/abstract_controller/base.rb:129:in `process'
+actionpack (5.2.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/authenticate" for ::1 at 2019-11-30 20:58:12 +0500
+Processing by AuthenticationController#authenticate as */*
+  Parameters: {"email"=>"test@user.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@user.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+Completed 401 Unauthorized in 8ms (Views: 0.2ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/authenticate" for ::1 at 2019-11-30 20:58:22 +0500
+Processing by AuthenticationController#authenticate as */*
+  Parameters: {"email"=>"test@user.comm", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@user.comm"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "/authenticate" for ::1 at 2019-11-30 20:59:00 +0500
+Processing by AuthenticationController#authenticate as */*
+  Parameters: {"email"=>"test@user.comm", "password"=>"[FILTERED]", "name"=>"test"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@user.comm"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/authenticate" for ::1 at 2019-11-30 20:59:43 +0500
+Processing by AuthenticationController#authenticate as */*
+  Parameters: {"email"=>"example@mail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example@mail.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example@mail.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+Completed 200 OK in 590ms (Views: 0.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/verticals/?cursor=5&size=5" for ::1 at 2019-11-30 21:00:03 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"5", "size"=>"5"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verticals/?cursor=5&size=5" for ::1 at 2019-11-30 21:00:57 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"5", "size"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.4ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 20ms (Views: 5.4ms | ActiveRecord: 4.6ms)
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "test user"], ["email", "test@user.com"], ["password_digest", "$2a$12$YqaKFm4DkJ64vYdfMPa1nehCRLXFm0lIBSsKF85Sr/z84/bT01Suu"], ["created_at", "2019-11-30 16:02:39.437188"], ["updated_at", "2019-11-30 16:02:39.437188"]]
+  [1m[35m (29.2ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/authenticate" for ::1 at 2019-11-30 21:03:15 +0500
+Processing by AuthenticationController#authenticate as */*
+  Parameters: {"email"=>"test@user.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@user.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@user.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+Completed 200 OK in 562ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/verticals/?cursor=5&size=5" for ::1 at 2019-11-30 21:03:40 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"5", "size"=>"5"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verticals/?cursor=5&size=5" for ::1 at 2019-11-30 21:03:45 +0500
+Processing by VerticalsController#index as */*
+  Parameters: {"cursor"=>"5", "size"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/categories/?cursor=5&size=5" for ::1 at 2019-11-30 21:46:23 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/categories"):
+  
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/1/categories/?cursor=5&size=5" for ::1 at 2019-11-30 21:46:34 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/1/categories"):
+  
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/1/categories?cursor=5&size=5" for ::1 at 2019-11-30 21:47:03 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/1/categories"):
+  
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/verticals/1/categories?cursor=5&size=5" for ::1 at 2019-11-30 21:47:14 +0500
+Processing by CategoriesController#index as */*
+  Parameters: {"cursor"=>"5", "size"=>"5", "vertical_id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 ORDER BY "categories"."id" DESC LIMIT $2 OFFSET $3[0m  [["vertical_id", 1], ["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/controllers/categories_controller.rb:6
+Completed 200 OK in 38ms (Views: 1.2ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/verticals/1/categories?cursor=5&size=5" for ::1 at 2019-11-30 21:48:20 +0500
+Processing by CategoriesController#index as */*
+  Parameters: {"cursor"=>"5", "size"=>"5", "vertical_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 ORDER BY "categories"."id" DESC LIMIT $2 OFFSET $3[0m  [["vertical_id", 1], ["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/controllers/categories_controller.rb:6
+Completed 200 OK in 26ms (Views: 0.9ms | ActiveRecord: 7.7ms)
+
+
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 21:50:00 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"category"=>{"name"=>"test 10", "state"=>"active"}, "vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:11
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO "categories" ("name", "vertical_id", "state", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "test 10"], ["vertical_id", 1], ["state", 0], ["created_at", "2019-11-30 16:50:00.588701"], ["updated_at", "2019-11-30 16:50:00.588701"]]
+  ↳ app/controllers/categories_controller.rb:11
+  [1m[35m (63.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:11
+Completed 200 OK in 107ms (Views: 0.2ms | ActiveRecord: 73.4ms)
+
+
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."state" = $1 LIMIT $2[0m  [["state", 0], ["LIMIT", 11]]
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 LIMIT $2[0m  [["vertical_id", 1], ["LIMIT", 11]]
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 ORDER BY "categories"."id" ASC LIMIT $2[0m  [["vertical_id", 1], ["LIMIT", 1]]
+Started PUT "/verticals/1/categories/1" for ::1 at 2019-11-30 21:51:30 +0500
+Processing by CategoriesController#update as */*
+  Parameters: {"category"=>{"name"=>"test category", "state"=>"disable"}, "vertical_id"=>"1", "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 AND "categories"."id" = $2 LIMIT $3[0m  [["vertical_id", 1], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:59
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:30
+  [1m[36mCategory Update (0.5ms)[0m  [1m[33mUPDATE "categories" SET "name" = $1, "state" = $2, "updated_at" = $3 WHERE "categories"."id" = $4[0m  [["name", "test category"], ["state", 1], ["updated_at", "2019-11-30 16:51:30.838424"], ["id", 1]]
+  ↳ app/controllers/categories_controller.rb:30
+  [1m[35m (16.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:30
+Completed 200 OK in 71ms (Views: 0.2ms | ActiveRecord: 29.9ms)
+
+
+Started PUT "/verticals/1/categories" for ::1 at 2019-11-30 21:51:39 +0500
+  
+ActionController::RoutingError (No route matches [PUT] "/verticals/1/categories"):
+  
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/verticals/1/categories" for ::1 at 2019-11-30 21:51:44 +0500
+Processing by CategoriesController#index as */*
+  Parameters: {"vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 ORDER BY "categories"."id" DESC LIMIT $2 OFFSET $3[0m  [["vertical_id", 1], ["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/controllers/categories_controller.rb:6
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.8ms)
+
+
+Started PUT "/verticals/1/categories" for ::1 at 2019-11-30 21:52:20 +0500
+  
+ActionController::RoutingError (No route matches [PUT] "/verticals/1/categories"):
+  
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/verticals/1/categories" for ::1 at 2019-11-30 21:53:47 +0500
+  
+ActionController::RoutingError (No route matches [PUT] "/verticals/1/categories"):
+  
+actionpack (5.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/verticals/1/categories/1" for ::1 at 2019-11-30 21:54:36 +0500
+Processing by CategoriesController#update as */*
+  Parameters: {"vertical_id"=>"1", "id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+Filter chain halted as :check_params_validity rendered or redirected
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 3.6ms)
+
+
+Started PUT "/verticals/1/categories/1" for ::1 at 2019-11-30 21:54:52 +0500
+Processing by CategoriesController#update as */*
+  Parameters: {"category"=>{"name"=>"test category", "state"=>"disable"}, "vertical_id"=>"1", "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.4ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 AND "categories"."id" = $2 LIMIT $3[0m  [["vertical_id", 1], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:59
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:30
+Completed 200 OK in 33ms (Views: 0.2ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/verticals/1/categories/" for ::1 at 2019-11-30 21:54:59 +0500
+Processing by CategoriesController#index as */*
+  Parameters: {"vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 ORDER BY "categories"."id" DESC LIMIT $2 OFFSET $3[0m  [["vertical_id", 1], ["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/controllers/categories_controller.rb:6
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/verticals/1/categories/1" for ::1 at 2019-11-30 21:56:30 +0500
+Processing by CategoriesController#destroy as */*
+  Parameters: {"category"=>{"name"=>"test category", "state"=>"disable"}, "vertical_id"=>"1", "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 AND "categories"."id" = $2 LIMIT $3[0m  [["vertical_id", 1], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:59
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:40
+  [1m[36mCategory Destroy (0.8ms)[0m  [1m[31mDELETE FROM "categories" WHERE "categories"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/categories_controller.rb:40
+  [1m[35m (29.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:40
+Completed 200 OK in 90ms (Views: 0.7ms | ActiveRecord: 43.5ms)
+
+
+Started GET "/verticals/1/categories" for ::1 at 2019-11-30 21:56:37 +0500
+Processing by CategoriesController#index as */*
+  Parameters: {"vertical_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 ORDER BY "categories"."id" DESC LIMIT $2 OFFSET $3[0m  [["vertical_id", 1], ["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/controllers/categories_controller.rb:6
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/verticals/1/categories" for ::1 at 2019-11-30 21:56:57 +0500
+Processing by CategoriesController#index as */*
+  Parameters: {"vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 ORDER BY "categories"."id" DESC LIMIT $2 OFFSET $3[0m  [["vertical_id", 1], ["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/controllers/categories_controller.rb:6
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/verticals/1/categories" for ::1 at 2019-11-30 21:57:03 +0500
+Processing by CategoriesController#index as */*
+  Parameters: {"vertical_id"=>"1"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 21:58:03 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"category"=>{"name"=>"test category", "state"=>"disable"}, "vertical_id"=>"1"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 21:58:11 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"vertical_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+Filter chain halted as :check_params_validity rendered or redirected
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 22:02:01 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+Filter chain halted as :check_params_validity rendered or redirected
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 22:05:02 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 33ms (Views: 9.6ms | ActiveRecord: 6.7ms)
+
+
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 22:05:42 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"category"=>{"name"=>"test 10", "state"=>"disable"}, "vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:11
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."name" = $1 LIMIT $2[0m  [["name", "test 10"], ["LIMIT", 1]]
+  ↳ app/models/category.rb:12
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/categories_controller.rb:11
+Completed 200 OK in 30ms (Views: 0.2ms | ActiveRecord: 3.8ms)
+
+
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 22:05:48 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"category"=>{"name"=>"test 101", "state"=>"disable"}, "vertical_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:11
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."name" = $1 LIMIT $2[0m  [["name", "test 101"], ["LIMIT", 1]]
+  ↳ app/models/category.rb:12
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO "categories" ("name", "vertical_id", "state", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "test 101"], ["vertical_id", 1], ["state", 1], ["created_at", "2019-11-30 17:05:48.382175"], ["updated_at", "2019-11-30 17:05:48.382175"]]
+  ↳ app/controllers/categories_controller.rb:11
+  [1m[35m (30.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:11
+Completed 200 OK in 37ms (Views: 0.2ms | ActiveRecord: 32.1ms)
+
+
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 22:11:09 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"category"=>{"name"=>"test 101", "state"=>"disable"}, "vertical_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:11
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."name" = $1 LIMIT $2[0m  [["name", "test 101"], ["LIMIT", 1]]
+  ↳ app/models/category.rb:12
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "vertical_id", "state", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "test 101"], ["vertical_id", 1], ["state", 1], ["created_at", "2019-11-30 17:11:09.996726"], ["updated_at", "2019-11-30 17:11:09.996726"]]
+  ↳ app/controllers/categories_controller.rb:11
+  [1m[35m (27.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:11
+Completed 200 OK in 74ms (Views: 0.2ms | ActiveRecord: 38.3ms)
+
+
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 22:11:16 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"category"=>{"name"=>"test 101", "state"=>"disable"}, "vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:11
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."name" = $1 LIMIT $2[0m  [["name", "test 101"], ["LIMIT", 1]]
+  ↳ app/models/category.rb:12
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "vertical_id", "state", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "test 101"], ["vertical_id", 1], ["state", 1], ["created_at", "2019-11-30 17:11:16.659094"], ["updated_at", "2019-11-30 17:11:16.659094"]]
+  ↳ app/controllers/categories_controller.rb:11
+  [1m[35m (21.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:11
+Completed 200 OK in 29ms (Views: 0.2ms | ActiveRecord: 22.3ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:11:36 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 101"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 101"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:11
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:11:41 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 1012"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 1012"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:11
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 1012"], ["created_at", "2019-11-30 17:11:41.463863"], ["updated_at", "2019-11-30 17:11:41.463863"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (18.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 19.4ms)
+
+
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 22:27:03 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"category"=>{"name"=>"test 1010", "state"=>"disabled"}, "vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:65
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:12
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."name" = $1 LIMIT $2[0m  [["name", "test 1010"], ["LIMIT", 1]]
+  ↳ app/models/category.rb:12
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO "categories" ("name", "vertical_id", "state", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "test 1010"], ["vertical_id", 1], ["state", 1], ["created_at", "2019-11-30 17:27:03.207419"], ["updated_at", "2019-11-30 17:27:03.207419"]]
+  ↳ app/controllers/categories_controller.rb:12
+  [1m[35m (1016.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:12
+Completed 200 OK in 1058ms (Views: 0.3ms | ActiveRecord: 1027.6ms)
+
+
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."state" = $1 LIMIT $2[0m  [["state", 1], ["LIMIT", 11]]
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 22:27:45 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"category"=>{"name"=>"test 10100", "state"=>"active"}, "vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:12
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."name" = $1 LIMIT $2[0m  [["name", "test 10100"], ["LIMIT", 1]]
+  ↳ app/models/category.rb:12
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "vertical_id", "state", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "test 10100"], ["vertical_id", 1], ["state", 0], ["created_at", "2019-11-30 17:27:45.785271"], ["updated_at", "2019-11-30 17:27:45.785271"]]
+  ↳ app/controllers/categories_controller.rb:12
+  [1m[35m (21.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:12
+Completed 200 OK in 29ms (Views: 0.2ms | ActiveRecord: 23.1ms)
+
+
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."state" = $1 LIMIT $2[0m  [["state", 1], ["LIMIT", 11]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."state" = $1 LIMIT $2[0m  [["state", 0], ["LIMIT", 11]]
+Started POST "/verticals/1/categories" for ::1 at 2019-11-30 22:28:09 +0500
+Processing by CategoriesController#create as */*
+  Parameters: {"category"=>{"name"=>"test 10100", "state"=>"poipoopipoi"}, "vertical_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:65
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/verticals/1/categories/6/courses" for ::1 at 2019-11-30 22:29:30 +0500
+Processing by CoursesController#create as */*
+  Parameters: {"course"=>{"name"=>"test course", "state"=>"active", "author"=>"test"}, "vertical_id"=>"1", "category_id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:65
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/courses_controller.rb:12
+  [1m[36mCourse Create (0.7ms)[0m  [1m[32mINSERT INTO "courses" ("name", "author", "category_id", "state", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "test course"], ["author", "test"], ["category_id", 6], ["state", 0], ["created_at", "2019-11-30 17:29:30.291802"], ["updated_at", "2019-11-30 17:29:30.291802"]]
+  ↳ app/controllers/courses_controller.rb:12
+  [1m[35m (22.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/courses_controller.rb:12
+Completed 200 OK in 42ms (Views: 0.3ms | ActiveRecord: 26.8ms)
+
+
+  [1m[36mCourse Load (0.4ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" ORDER BY "courses"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" ORDER BY "courses"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.6ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" ORDER BY "courses"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Started PUT "/verticals/1/categories/6/courses/1" for ::1 at 2019-11-30 22:30:13 +0500
+Processing by CoursesController#update as */*
+  Parameters: {"course"=>{"name"=>"test ", "state"=>"disabled", "author"=>"test"}, "vertical_id"=>"1", "category_id"=>"6", "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:65
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."category_id" = $1 AND "courses"."id" = $2 LIMIT $3[0m  [["category_id", 6], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:60
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/courses_controller.rb:31
+  [1m[36mCourse Update (0.4ms)[0m  [1m[33mUPDATE "courses" SET "name" = $1, "state" = $2, "updated_at" = $3 WHERE "courses"."id" = $4[0m  [["name", "test "], ["state", 1], ["updated_at", "2019-11-30 17:30:13.426183"], ["id", 1]]
+  ↳ app/controllers/courses_controller.rb:31
+  [1m[35m (25.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/courses_controller.rb:31
+Completed 200 OK in 32ms (Views: 0.1ms | ActiveRecord: 26.6ms)
+
+
+Started GET "/verticals/1/categories/6/courses" for ::1 at 2019-11-30 22:30:21 +0500
+Processing by CoursesController#index as */*
+  Parameters: {"vertical_id"=>"1", "category_id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:65
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."category_id" = $1 LIMIT $2[0m  [["category_id", 6], ["LIMIT", 11]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.7ms)
+
+
+  
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."category_id" = $1 LIMIT $2[0m  [["category_id", 6], ["LIMIT", 11]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+NoMethodError (undefined method `paginate_records' for #<Course::ActiveRecord_Associations_CollectionProxy:0x00007f3cac1f58e8>):
+  
+app/controllers/courses_controller.rb:6:in `index'
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."category_id" = $1 LIMIT $2[0m  [["category_id", 6], ["LIMIT", 11]]
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Started GET "/verticals/1/categories/6/courses" for ::1 at 2019-11-30 22:30:46 +0500
+Processing by CoursesController#index as */*
+  Parameters: {"vertical_id"=>"1", "category_id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:65
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."category_id" = $1 ORDER BY "courses"."id" DESC LIMIT $2 OFFSET $3[0m  [["category_id", 6], ["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/controllers/courses_controller.rb:7
+Completed 200 OK in 47ms (Views: 7.3ms | ActiveRecord: 9.6ms)
+
+
+Started DELETE "/verticals/1/categories/6/courses/1" for ::1 at 2019-11-30 22:31:13 +0500
+Processing by CoursesController#destroy as */*
+  Parameters: {"course"=>{"name"=>"test ", "state"=>"disabled", "author"=>"test"}, "vertical_id"=>"1", "category_id"=>"6", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:65
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."category_id" = $1 AND "courses"."id" = $2 LIMIT $3[0m  [["category_id", 6], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:60
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/courses_controller.rb:41
+  [1m[36mCourse Destroy (0.3ms)[0m  [1m[31mDELETE FROM "courses" WHERE "courses"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/courses_controller.rb:41
+  [1m[35m (27.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/courses_controller.rb:41
+Completed 200 OK in 32ms (Views: 0.2ms | ActiveRecord: 28.5ms)
+
+
+Started POST "/verticals/1/categories/6/courses" for ::1 at 2019-11-30 22:31:33 +0500
+Processing by CoursesController#create as */*
+  Parameters: {"course"=>{"name"=>"test ", "state"=>"disabled", "author"=>"test"}, "vertical_id"=>"1", "category_id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:65
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/courses_controller.rb:12
+  [1m[36mCourse Create (0.4ms)[0m  [1m[32mINSERT INTO "courses" ("name", "author", "category_id", "state", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "test "], ["author", "test"], ["category_id", 6], ["state", 1], ["created_at", "2019-11-30 17:31:33.703603"], ["updated_at", "2019-11-30 17:31:33.703603"]]
+  ↳ app/controllers/courses_controller.rb:12
+  [1m[35m (146.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/courses_controller.rb:12
+Completed 200 OK in 152ms (Views: 0.2ms | ActiveRecord: 147.2ms)
+
+
+Started DELETE "/verticals/1" for ::1 at 2019-11-30 22:32:22 +0500
+Processing by VerticalsController#destroy as */*
+  Parameters: {"course"=>{"name"=>"test ", "state"=>"disabled", "author"=>"test"}, "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/verticals_controller.rb:59
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1[0m  [["vertical_id", 1]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCategory Destroy (0.5ms)[0m  [1m[31mDELETE FROM "categories" WHERE "categories"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."category_id" = $1[0m  [["category_id", 3]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCategory Destroy (0.4ms)[0m  [1m[31mDELETE FROM "categories" WHERE "categories"."id" = $1[0m  [["id", 3]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."category_id" = $1[0m  [["category_id", 4]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCategory Destroy (0.4ms)[0m  [1m[31mDELETE FROM "categories" WHERE "categories"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."category_id" = $1[0m  [["category_id", 5]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCategory Destroy (0.4ms)[0m  [1m[31mDELETE FROM "categories" WHERE "categories"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."category_id" = $1[0m  [["category_id", 6]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCourse Destroy (0.3ms)[0m  [1m[31mDELETE FROM "courses" WHERE "courses"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mCategory Destroy (0.4ms)[0m  [1m[31mDELETE FROM "categories" WHERE "categories"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[36mVertical Destroy (0.5ms)[0m  [1m[31mDELETE FROM "verticals" WHERE "verticals"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/verticals_controller.rb:40
+  [1m[35m (9.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:40
+Completed 200 OK in 81ms (Views: 0.2ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/verticals/1/categories" for ::1 at 2019-11-30 22:32:49 +0500
+Processing by CategoriesController#index as */*
+  Parameters: {"vertical_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.2ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:65
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.4ms)
+
+
+  
+NoMethodError (undefined method `categories' for nil:NilClass):
+  
+app/controllers/categories_controller.rb:6:in `index'
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" ORDER BY "courses"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+Started GET "/verticals/2/categories" for ::1 at 2019-11-30 22:33:24 +0500
+Processing by CategoriesController#index as */*
+  Parameters: {"vertical_id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" WHERE "verticals"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:65
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."vertical_id" = $1 ORDER BY "categories"."id" DESC LIMIT $2 OFFSET $3[0m  [["vertical_id", 2], ["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/controllers/categories_controller.rb:7
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/verticals" for ::1 at 2019-11-30 22:33:31 +0500
+Processing by VerticalsController#index as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[36mVertical Load (0.3ms)[0m  [1m[34mSELECT  "verticals".* FROM "verticals" ORDER BY "verticals"."id" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/controllers/verticals_controller.rb:6
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:50:22 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test "}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test "], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.9ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test "], ["created_at", "2019-11-30 17:50:22.196029"], ["updated_at", "2019-11-30 17:50:22.196029"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 158ms (Views: 0.2ms | ActiveRecord: 10.1ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:51:11 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22"], ["created_at", "2019-11-30 17:51:11.255027"], ["updated_at", "2019-11-30 17:51:11.255027"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:51:32 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdf"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdf"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdf"], ["created_at", "2019-11-30 17:51:32.330497"], ["updated_at", "2019-11-30 17:51:32.330497"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:51:51 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdf"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdf"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdf"], ["created_at", "2019-11-30 17:51:51.653246"], ["updated_at", "2019-11-30 17:51:51.653246"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (17.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 52ms (Views: 0.2ms | ActiveRecord: 27.7ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:52:26 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdfvv"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdfvv"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.8ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdfvv"], ["created_at", "2019-11-30 17:52:26.278584"], ["updated_at", "2019-11-30 17:52:26.278584"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 38ms (Views: 0.2ms | ActiveRecord: 8.2ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:52:56 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdfvv"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdfvv"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdfvv"], ["created_at", "2019-11-30 17:52:56.067996"], ["updated_at", "2019-11-30 17:52:56.067996"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (2.8ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 108420ms (Views: 0.1ms | ActiveRecord: 10.9ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:54:50 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdfvv"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdfvv"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdfvv"], ["created_at", "2019-11-30 17:54:51.030668"], ["updated_at", "2019-11-30 17:54:51.030668"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 6092ms (Views: 0.2ms | ActiveRecord: 8.1ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:55:07 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdfvv"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdfvv"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdfvv"], ["created_at", "2019-11-30 17:55:07.355106"], ["updated_at", "2019-11-30 17:55:07.355106"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 7984ms (Views: 0.1ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:55:23 +0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdfvv"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdfvv"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.8ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdfvv"], ["created_at", "2019-11-30 17:55:24.052922"], ["updated_at", "2019-11-30 17:55:24.052922"]]
+  ↳ app/controllers/verticals_controller.rb:11
+ActionMailer::Base#mail: processed outbound mail in 213.7ms
+Sent mail to  (4609.0ms)
+Date: Sat, 30 Nov 2019 22:56:57 +0500
+From: test@example.co
+Message-ID: <5de2ad69541c0_39772b0fcbbb7aa0568@techclan.mail>
+Subject: Mail
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test
+  [1m[35m (8.9ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 138374ms (Views: 0.2ms | ActiveRecord: 21.4ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:58:03 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdfvv"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdfvv"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdfvv"], ["created_at", "2019-11-30 17:58:03.799821"], ["updated_at", "2019-11-30 17:58:03.799821"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 5689ms (Views: 0.2ms | ActiveRecord: 10.0ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 22:58:23 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdfvv"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdfvv"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdfvv"], ["created_at", "2019-11-30 17:58:23.037896"], ["updated_at", "2019-11-30 17:58:23.037896"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 177925ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 23:01:26 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test 22fdfdfdfdfdfvv"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test 22fdfdfdfdfdfvv"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test 22fdfdfdfdfdfvv"], ["created_at", "2019-11-30 18:01:26.469636"], ["updated_at", "2019-11-30 18:01:26.469636"]]
+  ↳ app/controllers/verticals_controller.rb:11
+ActionMailer::Base#mail: processed outbound mail in 236.6ms
+Sent mail to  (3885.8ms)
+Date: Sat, 30 Nov 2019 23:03:22 +0500
+From: test@example.co
+Message-ID: <5de2aeea72ef3_3ace2af8d28c1f54967ba@techclan.mail>
+Subject: Mail
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+suDbject: 
+
+Test
+ActionMailer::Base#mail: processed outbound mail in 0.9ms
+Sent mail to  (3388.8ms)
+Date: Sat, 30 Nov 2019 23:03:26 +0500
+Message-ID: <5de2aeee9ab9f_3ace2af8d28c1f549682d@techclan.mail>
+Subject: Mail
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test
+  [1m[35m (30.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 123620ms (Views: 0.2ms | ActiveRecord: 40.2ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 23:03:43 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test vertical new"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test vertical new"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test vertical new"], ["created_at", "2019-11-30 18:03:43.517924"], ["updated_at", "2019-11-30 18:03:43.517924"]]
+  ↳ app/controllers/verticals_controller.rb:11
+[ActiveJob] [ActionMailer::DeliveryJob] [814cd54a-b49c-476d-834a-0af838ed7946] Performing ActionMailer::DeliveryJob (Job ID: 814cd54a-b49c-476d-834a-0af838ed7946) from Async(mailers) with arguments: "ActionMailer::Base", "mail", "deliver_now", {:to=>"fixyourcell.ca@gmail.com", :subject=>"Test Subject", :body=>"Test Mail Body"}
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 814cd54a-b49c-476d-834a-0af838ed7946) to Async(mailers) with arguments: "ActionMailer::Base", "mail", "deliver_now", {:to=>"fixyourcell.ca@gmail.com", :subject=>"Test Subject", :body=>"Test Mail Body"}
+  [1m[35m (97.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 212ms (Views: 0.3ms | ActiveRecord: 106.7ms)
+
+
+[ActiveJob] [ActionMailer::DeliveryJob] [814cd54a-b49c-476d-834a-0af838ed7946] ActionMailer::Base#mail: processed outbound mail in 174.3ms
+[ActiveJob] [ActionMailer::DeliveryJob] [814cd54a-b49c-476d-834a-0af838ed7946] Sent mail to fixyourcell.ca@gmail.com (2838.7ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [814cd54a-b49c-476d-834a-0af838ed7946] Date: Sat, 30 Nov 2019 23:03:43 +0500
+To: fixyourcell.ca@gmail.com
+Message-ID: <5de2aeffbd4d7_3b463fcc3a8c1a6865d@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+[ActiveJob] [ActionMailer::DeliveryJob] [814cd54a-b49c-476d-834a-0af838ed7946] Performed ActionMailer::DeliveryJob (Job ID: 814cd54a-b49c-476d-834a-0af838ed7946) from Async(mailers) in 3014.52ms
+Started POST "/verticals" for ::1 at 2019-11-30 23:04:55 +0500
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test vertical new"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test vertical new"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.3ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test vertical new"], ["created_at", "2019-11-30 18:04:55.509410"], ["updated_at", "2019-11-30 18:04:55.509410"]]
+  ↳ app/controllers/verticals_controller.rb:11
+ActionMailer::Base#mail: processed outbound mail in 0.5ms
+Sent mail to fixyourcell.ca@gmail.com (4041.4ms)
+Date: Sat, 30 Nov 2019 23:05:07 +0500
+To: fixyourcell.ca@gmail.com
+Message-ID: <5de2af5357062_3b462ae8359139386677@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 0.6ms
+Sent mail to ajmalhass651@gmail.com (13720.8ms)
+Date: Sat, 30 Nov 2019 23:06:51 +0500
+To: ajmalhass651@gmail.com
+Message-ID: <5de2afbb6c628_3b462ae83591393867eb@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 0.5ms
+Sent mail to ajmalhass651@gmail.com (5274.5ms)
+Date: Sat, 30 Nov 2019 23:08:45 +0500
+To: ajmalhass651@gmail.com
+Message-ID: <5de2b02d9429c_3b462ae8359139386893@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 1.3ms
+Sent mail to ajmalhass651@gmail.com (2474.7ms)
+Date: Sat, 30 Nov 2019 23:09:28 +0500
+To: ajmalhass651@gmail.com
+Message-ID: <5de2b05830a32_3b462ae83591393869b5@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 0.5ms
+Sent mail to ajmalhassan651@gmail.com (2509.5ms)
+Date: Sat, 30 Nov 2019 23:09:42 +0500
+To: ajmalhassan651@gmail.com
+Message-ID: <5de2b066612aa_3b462ae835913938703@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 0.9ms
+Sent mail to ajmalhassan651@gmail.com (7520.5ms)
+Date: Sat, 30 Nov 2019 23:10:08 +0500
+To: ajmalhassan651@gmail.com
+Message-ID: <5de2b080e2484_3b462ae83591393871c2@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 0.9ms
+Sent mail to fixyourcell.ca@gmail.com (3387.0ms)
+Date: Sat, 30 Nov 2019 23:14:49 +0500
+To: fixyourcell.ca@gmail.com
+Message-ID: <5de2b19938903_3b462ae835913938721c@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+  [1m[35m (84.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 597221ms (Views: 0.2ms | ActiveRecord: 91.9ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 23:14:59 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test vertical new"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test vertical new"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test vertical new"], ["created_at", "2019-11-30 18:14:59.908238"], ["updated_at", "2019-11-30 18:14:59.908238"]]
+  ↳ app/controllers/verticals_controller.rb:11
+ActionMailer::Base#mail: processed outbound mail in 169.0ms
+Sent mail to ajmalhassan651@gmail.com (4.2ms)
+Date: Sat, 30 Nov 2019 23:15:06 +0500
+To: ajmalhassan651@gmail.com
+Message-ID: <5de2b1aa9aeaa_3d3f2ac1cec94b6c178d0@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 1.4ms
+Sent mail to ajmalhassan651@gmail.com (2.8ms)
+Date: Sat, 30 Nov 2019 23:15:15 +0500
+To: ajmalhassan651@gmail.com
+Message-ID: <5de2b1b35f8d9_3d3f2ac1cec94b6c1792f@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 0.8ms
+Sent mail to ajmalhassan651@gmail.com (1.7ms)
+Date: Sat, 30 Nov 2019 23:15:24 +0500
+To: ajmalhassan651@gmail.com
+Message-ID: <5de2b1bc8cbce_3d3f2ac1cec94b6c180f1@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 0.7ms
+Sent mail to fixyourcell.ca@gmail.com (1.5ms)
+Date: Sat, 30 Nov 2019 23:16:17 +0500
+To: fixyourcell.ca@gmail.com
+Message-ID: <5de2b1f1e9a8e_3d3f2ac1cec94b6c181da@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+  [1m[35m (34.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 78127ms (Views: 0.2ms | ActiveRecord: 44.0ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 23:16:24 +0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test vertical new"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test vertical new"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:12
+  [1m[36mVertical Create (0.5ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test vertical new"], ["created_at", "2019-11-30 18:16:24.714998"], ["updated_at", "2019-11-30 18:16:24.714998"]]
+  ↳ app/controllers/verticals_controller.rb:11
+ActionMailer::Base#mail: processed outbound mail in 165.7ms
+Sent mail to ajmalhassan651@gmail.com (2350.9ms)
+Date: Sat, 30 Nov 2019 23:16:28 +0500
+To: ajmalhassan651@gmail.com
+Message-ID: <5de2b1fcd71bb_3db82b1cc39146545232f@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+ActionMailer::Base#mail: processed outbound mail in 2.5ms
+Sent mail to fixyourcell.ca@gmail.com (3225.5ms)
+Date: Sat, 30 Nov 2019 23:18:47 +0500
+To: fixyourcell.ca@gmail.com
+Message-ID: <5de2b287b9bd6_3db82b1cc39146545249e@techclan.mail>
+Subject: Test Subject
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test Mail Body
+  [1m[35m (29.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 146333ms (Views: 0.2ms | ActiveRecord: 39.1ms)
+
+
+Started POST "/verticals" for ::1 at 2019-11-30 23:22:26 +0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/muzzamil/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by VerticalsController#create as */*
+  Parameters: {"vertical"=>{"name"=>"test vertical newww"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/commands/authorize_api_request.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "test vertical newww"], ["LIMIT", 1]]
+  ↳ app/models/vertical.rb:17
+  [1m[36mVertical Create (0.4ms)[0m  [1m[32mINSERT INTO "verticals" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test vertical newww"], ["created_at", "2019-11-30 18:22:26.465218"], ["updated_at", "2019-11-30 18:22:26.465218"]]
+  ↳ app/controllers/verticals_controller.rb:11
+  [1m[35m (28.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/verticals_controller.rb:11
+Completed 200 OK in 66ms (Views: 0.5ms | ActiveRecord: 38.4ms)
+
+
