@@ -5,17 +5,18 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version => (2>=.5.1)
+* Ruby version
+   => (2>=.5.1)
 
 
 
 * System dependencies
 
-Rails 5.2.4, 
+    => Rails 5.2.4 
 
-database => Postgres,
+    => database(Postgres)
 
-install Postman to hit Api
+    => install Postman to hit Api
 
 
 
