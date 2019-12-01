@@ -1,4 +1,4 @@
-modual Api
+module Api
  module V1
 class CoursesController < ApplicationController
   before_action :check_params_validity, except: [:index, :destroy]
