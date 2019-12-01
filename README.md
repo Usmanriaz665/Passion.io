@@ -21,16 +21,9 @@ run these commands
 => rake db:reset
 => rails s
 
-* Database creation
-
-* Database initialization
 
 * How to run the test suite
 ![alt text](https://github.com/Usmanriaz665/Passion.io/blob/master/public/authenticate_request.png)
 ![alt text](https://github.com/Usmanriaz665/Passion.io/blob/master/public/token_request.png)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
