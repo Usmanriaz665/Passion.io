@@ -40,11 +40,11 @@ Things you may want to cover:
 
     first hit the api to get the authentication token as shown below
 
-    ![alt text](https://github.com/Usmanriaz665/Passion.io/blob/master/public/authenticate_request.png)
+    ![alt text](https://github.com/Usmanriaz665/Passion.io/blob/master/public/images/authenticate.jpeg)
 
     now you can use this authentication token as shown below (i.e provide name to create a new vertical)
 
-    ![alt text](https://github.com/Usmanriaz665/Passion.io/blob/master/public/token_request.png)
+    ![alt text](https://github.com/Usmanriaz665/Passion.io/blob/master/public/images/passionio.jpeg)
 
 
 
