@@ -1,3 +1,5 @@
+modual Api
+ module V1
 class VerticalsController < ApplicationController
   before_action :check_params_validity, except: [:index, :destroy]
 
@@ -58,4 +60,6 @@ class VerticalsController < ApplicationController
   def get_vertical
     @vertical = Vertical.find params[:id]
   end
+end
+end
 end

@@ -1,3 +1,5 @@
+modual Api
+ module V1
 class CategoriesController < ApplicationController
   before_action :check_params_validity, except: [:index, :destroy]
   before_action :get_vertical
@@ -67,4 +69,6 @@ class CategoriesController < ApplicationController
       render json: {status: "failed", message: "please send valid vertical id"} unless params[:vertical_id].present?
     end
   end
+end
+end
 end

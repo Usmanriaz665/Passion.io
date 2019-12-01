@@ -1,3 +1,5 @@
+modual Api
+ module V1
 class CoursesController < ApplicationController
   before_action :check_params_validity, except: [:index, :destroy]
   before_action :get_category
@@ -67,4 +69,6 @@ class CoursesController < ApplicationController
       render json: {status: "failed", message: "please send valid category id"} unless params[:category_id].present?
     end
   end
+end
+end
 end
